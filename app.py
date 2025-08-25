@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+model = joblib.load('churn_model.joblib')
 
 # --- Configuration ---
 st.set_page_config(
@@ -145,4 +146,5 @@ def main():
                 """)
 
 if __name__ == "__main__":
+
     main()

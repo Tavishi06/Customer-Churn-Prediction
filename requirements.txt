@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+pymongo
+dnspython
+streamlit
+joblib
